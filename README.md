@@ -10,7 +10,7 @@ Lower input latency.
 More accurate colors.  
 Lanczos upscaling.  
 Fancy splash screen.  
-Display power control*.  
+Display power control.  
 Bug fixes.  
 
 *Untested on most models as of now but it should just work. See info below to help me test and verify. 
