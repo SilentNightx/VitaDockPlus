@@ -1,7 +1,7 @@
 # VitaDock Plus (+)
 VitaDock+ is the new and improved VitaDock software used to create a PlayStation Vita docking station for video output to a TV.
 # Improvements over the original
-Works on all Raspberry Pi models with a single image*.  
+Works on most Raspberry Pi models with a single image*.  
 Uses FFmpeg+FFplay backend resulting in lower processor usage.  
 Hardware accelerated across all supported hardware.  
 Fits on 4GB SD cards.  
