@@ -39,7 +39,7 @@ To help me verify models please report to me how it is working for you and your 
 1. Download the latest release of VitaDock+: https://github.com/SilentNightx/VitaDockPlus/releases/
 2. Download and install Raspberry Pi Imager for your operating system: https://www.raspberrypi.org/downloads/
 3. Plug in the SD card to your computer and run the Raspberry Pi Imager.
-4. When asked to choose OS select the option to use a custom image and select the VitaDock Plus.img you downloaded.
+4. When asked to choose OS select the option to use a custom image and select the VitaDock Plus VX.img you downloaded.
 5. Choose the SD card to write it to (make sure to select the right one).
 6. Click Write. Once it is done it will tell you to remove the SD card.
 7. Plug the SD card into your Pi and power it on.
@@ -54,7 +54,7 @@ PSV-VSH-Menu by joel16: https://github.com/SilentNightx/PSV-VSH-Menu/releases/ta
 Allows you to set processor states for games, overlay FPS counter, and more. Checking the FPS of a game can be helpful when using VitaDock+ so you can decide what mode you want to use (HD @ 30 or SD @ 60).
 
 # Updating
-Check back here for updates and reburn the image when there is one. Data stored on the dock will be overwritten but this isn't really a distribution you're meant to store data on in the first place.
+Check back here for updates and rewrite the image when there is one. Data stored on the dock will be overwritten but this isn't really a distribution you're meant to store data on in the first place.
 
 # Cases
 https://www.thingiverse.com/thing:3942821  
