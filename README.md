@@ -36,7 +36,7 @@ To help me verify models please report to me how it is working for you and your 
 4. Computer with an SD card slot or a USB SD card reader (often included in Raspberry Pi starter kits).
 
 # Installation
-1. Download the latest release of VitaDock+: 
+1. Download the latest release of VitaDock+: https://github.com/SilentNightx/VitaDockPlus/releases/
 2. Download and install Raspberry Pi Imager for your operating system: https://www.raspberrypi.org/downloads/
 3. Plug in the SD card to your computer and run the Raspberry Pi Imager.
 4. When asked to choose OS select the option to use a custom image and select the VitaDock Plus.img you downloaded.
