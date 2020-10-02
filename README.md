@@ -46,6 +46,13 @@ To help me verify models please report to me how it is working for you and your 
 
 Any time you see the VitaDock+ desktop you can plug your Vita in through USB to get video output.
 
+# Recommended Plugins
+MiniVitaTV by TheOfficialFloW: https://github.com/TheOfficialFloW/MiniVitaTV
+Allows the PS Vita to run like a PS TV, enabling DualShock 4 controllers to be connected and makes games load their PS TV control schemes.
+
+PSV-VSH-Menu by joel16: https://github.com/SilentNightx/PSV-VSH-Menu/releases/tag/3.50
+Allows you to set processor states for games, overlay FPS counter, and more. Checking the FPS of a game can be helpful when using VitaDock+ so you can decide what mode you want to use (HD @ 30 or SD @ 60).
+
 # Updating
 Check back here for updates and reburn the image when there is one. Data stored on the dock will be overwritten but this isn't really a distribution you're meant to store data on in the first place.
 
