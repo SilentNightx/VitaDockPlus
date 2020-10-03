@@ -24,8 +24,11 @@ Menu shortcuts to apps that let you use this as a Linux desktop: They made it to
 # Tested Models
 | Model | Status | Details |
 | :-------------: |:-------------:| :-----:|
-| Raspberry Pi Zero W Rev 1.1|Excellent|Bluetooth might cause issues because of low processing power, consider overclocking.|
-| Raspberry Pi 4 Model B Rev 1.1 (4GB)|Excellent|Display backlight might not go to sleep on timeout, a common issue with Pi 4 models.|
+| Raspberry Pi Zero W Rev 1.1|Good|Bluetooth might cause issues because of low processing power, consider overclocking.|
+| Raspberry Pi 2 Model B Rev 1.1|Excellent||
+| Raspberry Pi 3 Model B Rev 1.2|Excellent||
+| Raspberry Pi 4 Model B Rev 1.1 (2GB)|Excellent|Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware.|
+| Raspberry Pi 4 Model B Rev 1.1 (4GB)|Excellent|Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware.|
 
 To help me verify models please report to me how it is working for you and your exact model. You can get the exact model by opening a terminal with the run menu by running `termit` then entering `cat /sys/firmware/devicetree/base/model`.
 
