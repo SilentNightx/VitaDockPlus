@@ -56,6 +56,9 @@ Allows the PS Vita to run like a PS TV, enabling DualShock 4 controllers to be c
 PSV-VSH-Menu by joel16: https://github.com/SilentNightx/PSV-VSH-Menu/releases/tag/3.50
 Allows you to set processor states for games, overlay FPS counter, and more. Checking the FPS of a game can be helpful when using VitaDock+ so you can decide what mode you want to use (HD @ 30 or SD @ 60).
 
+# Performance Tips
+The HD @ 30FPS mode is easier for the Pi to handle than the SD @ 60FPS mode because although there are less pixels to push per frame in that mode, it has to do so twice as fast.  Overclocking and disabling Bluetooth on low powered Pis can also help.
+
 # Updating
 Check back here for updates and rewrite the image when there is one. Data stored on the dock will be overwritten but this isn't really a distribution you're meant to store data on in the first place.
 
