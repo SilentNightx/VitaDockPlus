@@ -84,6 +84,8 @@ Use the run menu to access standard programs:
 `termit` to open terminal emulator  
 `alacarte` to open menu editor  
 
+If you want to install more programs first expand the filesystem to fill the rest of your SD card.
+
 # Experimental Sharpscale Mode
 I've included a hidden experimental mode for users of the Sharpscale plugin: https://forum.devchroma.nl/index.php?topic=112.0
 
