@@ -68,8 +68,12 @@ https://www.thingiverse.com/thing:4460743
 https://www.thingiverse.com/thing:3502645  
 https://www.tinkercad.com/things/b0GQwqVYNPP  
 
-# Troubleshooting
-Reboot the dock and the Vita and try again. Check the USB cable, it can make a difference.
+# Connection Troubleshooting
+1. Reboot the dock and the Vita and try again. Check the USB cable, it can make a difference.  
+2. Make sure you have the latest official vita-udcd-uvc.  
+3. Make sure your Pi has a good enough power supply.
+4. If you use a lot of plugins disable plugins you don't need to see if it increases your connection success rate.  
+5. There is a correlation between long Vita boot time and vita-udcd-uvc connection success rate. If you have a lot of storage on your Vita it can take a long time to boot. If you are using StorageMgr for your storage consider switching to to yamt-vita or yamt-vita-lite to decrease boot times and increase connection success rate.
 
 # Upscaling
 VitaDock+ upscales the Vita's 960x544 or 864x488 output to 720p with Lanczos filtering then your TV upscales that to the resolution of your panel using it's own method as long as you don't have original size set in your TV's input settings.
