@@ -75,6 +75,7 @@ https://www.tinkercad.com/things/b0GQwqVYNPP
 3. Make sure your Pi has a good enough power supply.
 4. If you use a lot of plugins disable plugins you don't need to see if it increases your connection success rate.  
 5. There is a correlation between long Vita boot time and vita-udcd-uvc connection success rate. If you have a lot of storage on your Vita it can take a long time to boot. If you are using StorageMgr for your storage consider switching to to yamt-vita or yamt-vita-lite to decrease boot times and increase connection success rate.
+6. If using an overclocking plugin on the Vita try setting it to 444 to see if it helps connection issues.
 
 # Upscaling
 VitaDock+ upscales the Vita's 960x544 or 864x488 output to 720p with Lanczos filtering then your TV upscales that to the resolution of your panel using it's own method as long as you don't have original size set in your TV's input settings.
