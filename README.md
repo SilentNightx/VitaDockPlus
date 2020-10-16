@@ -1,5 +1,5 @@
 # VitaDock Plus (+)
-![Discord](https://img.shields.io/discord/686957786327941157?logo=Discord&style=for-the-badge)![GitHub release (latest by date)](https://img.shields.io/github/v/release/SilentNightx/VitaDockPlus?style=for-the-badge)  
+[![Discord](https://img.shields.io/discord/686957786327941157?logo=Discord&style=for-the-badge)](https://discord.gg/tQemjGd)[![GitHub release (latest by date)](https://img.shields.io/github/v/release/SilentNightx/VitaDockPlus?style=for-the-badge)](https://github.com/SilentNightx/VitaDockPlus/releases)  
 VitaDock+ is the new and improved VitaDock software used to create a PlayStation Vita docking station for video output to a TV.
 
 # Improvements over the original
