@@ -1,5 +1,4 @@
 # VitaDock Plus (+)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/SilentNightx/VitaDockPlus)  
 VitaDock+ is the new and improved VitaDock software used to create a PlayStation Vita docking station for video output to a TV.
 # Improvements over the original
 Works on most Raspberry Pi models with a single image*  
