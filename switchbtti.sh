@@ -1,0 +1,1 @@
+sudo mv /etc/modprobe.d/blacklist-bluetooth.conf ./ && reboot

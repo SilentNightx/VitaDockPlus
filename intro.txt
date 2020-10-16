@@ -1,0 +1,12 @@
+Welcome to VitaDock Plus.
+
+Select OK to get rid of this message if you have a mouse/keyboard otherwise it will go away on next boot (unplug and replug power cable). 
+
+How to use: 
+-For video output connect your PlayStation Vita to the dock (Raspberry Pi). Make sure you have Xerpi's vita-udcd-uvc plugin installed on your Vita first. The link to vita-udcd-uvc and some recommended plugins will be on the VitaDock Plus release page. 
+
+-The dock is set up for native playback at 30fps by default but if you would like to switch to the lower resolution 60fps mode you can do so from the VitaDock Plus menu. You can access this menu by clicking the PlayStation logo icon in the bottom right with a mouse or pressing Ctl + Esc on a keyboard while your Vita is not plugged in.
+
+-For audio output from the PlayStation Vita system to your TV you can use an AUX cable from your Vita directly to your TV or you can use Bluetooth. VitaDock Plus is set up to use internal Bluetooth by default but if you are using a Pi without internal Bluetooth, or if your internal Bluetooth is glitching, you can use a Bluetooth dongle (there are fake CSR Bluetooth adapters going around that don't work, so be careful what you buy). Using a dongle to fix glitching may not work on lower powered Pis due to them not having enough processing power to process audio and maintain a smooth video stream at the same time. You can switch between Internal Bluetooth and Dongle Bluetooth using the VitaDock Plus menu and going to the Options category.
+
+-For more detailed information and advanced features see the VitaDock Plus release page.

@@ -1,0 +1,1 @@
+ACTION=="add", ATTRS{idProduct}=="1337", ATTRS{idVendor}=="054c", SUBSYSTEM=="video4linux", TAG+="systemd", ENV{SYSTEMD_WANTS}="vita.service"
