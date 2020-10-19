@@ -45,3 +45,5 @@ There are hardware specific commands in run.sh to set these variables.
 Running `v4l2-ctl -d 0 --list-formats-ext` can show you a list of UVC modes the Vita that is plugged in supports.
 
 6. Running `sudo journalctl -f -u vita` and then plugging the Vita in shows what code is run when the Vita is plugged in. Can be helpful when debugging.
+
+7. To shrink the image use win32diskimager to get an image. Put the image on a USB drive then plug it into the Pi and boot with the SD you imaged. Run `termit` then navigate to the folder where the image is on your USB drive. Next run `sudo pishrink.sh -s -p 'name of your image`. Make sure you use the -s option. This disables filesystem expansion on first boot which is a broken feature at the moment that will corrupt the filesystem. Also make sure to use -p to remove any logs that might contain sensitive information.
