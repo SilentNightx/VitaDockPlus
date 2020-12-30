@@ -29,6 +29,7 @@ Once that is done enter the following commands:
 `sudo ./configure --extra-ldflags=-latomic --arch=armel --target-os=linux --enable-ffplay --enable-omx --enable-omx-rpi --enable-mmal --enable-decoder=h264_mmal --enable-decoder=mpeg2_mmal --enable-encoder=h264_omx`  
 then on RPI 0/1 `sudo make` or on RPI 2/3/4 `sudo make -j4`  
 That step can take a long time and once it is done you need to enter `sudo make install` then reboot.  
+After compiling you may want to disable the swap again as this can help performance while streaming the video.
 
 2. When adding a new UDEV rule on Pi you need to run `sudo /etc/init.d/udev restart` or it won't be seen by the OS.
 
