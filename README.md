@@ -33,6 +33,7 @@ Menu shortcuts to apps that let you use this as a Linux desktop: They made it to
 | Raspberry Pi 3 Model B Rev 1.2 |Excellent|  |
 | Raspberry Pi 3 Model B Plus Rev 1.3 |Excellent|  |
 | Raspberry Pi 4 Model B Rev 1.1 (2GB) | Excellent | Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware. Low Latency Mode doesn't work but it's not really needed on Pi 4 anyway. |
+| Raspberry Pi 4 Model B Rev 1.2 (2GB) | Excellent | Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware. Low Latency Mode doesn't work but it's not really needed on Pi 4 anyway. |
 | Raspberry Pi 4 Model B Rev 1.1 (4GB) | Excellent | Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware. Low Latency Mode doesn't work but it's not really needed on Pi 4 anyway. |
 
 To help me verify models please report to me how it is working for you and your exact model. You can get the exact model by opening a terminal with the run menu by running `termit` then entering `cat /sys/firmware/devicetree/base/model`.  
