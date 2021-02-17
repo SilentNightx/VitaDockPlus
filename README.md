@@ -13,6 +13,7 @@ Low Latency Mode (disables Desktop for better performance)
 More accurate colors  
 Lanczos upscaling  
 Fancy splash screen  
+Notifications for visual feedback when changing settings
 Display power control  
 Bug fixes  
 
@@ -27,11 +28,11 @@ Menu shortcuts to apps that let you use this as a Linux desktop: They made it to
 # Tested Models
 | Model | Status | Details |
 | :-------------: | :-------------: | :-----: |
-| Raspberry Pi Zero W Rev 1.1 | Good | Bluetooth might cause issues because of low processing power, consider overclocking and using low latency mode. |
+| Raspberry Pi Zero W Rev 1.1 | Works | Latency will make certain games unplayable, consider overclocking, diabling Bluetooth/WiFi, and using Low Latency Mode. |
 | Raspberry Pi 2 Model B Rev 1.1 | Good |  |
 | Raspberry Pi 3 Model B Rev 1.2 |Excellent|  |
-| Raspberry Pi 4 Model B Rev 1.1 (2GB) | Excellent | Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware. |
-| Raspberry Pi 4 Model B Rev 1.1 (4GB) | Excellent | Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware. |
+| Raspberry Pi 4 Model B Rev 1.1 (2GB) | Excellent | Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware. Low Latency Mode doesn't work but it's not really needed on Pi 4 anyway. |
+| Raspberry Pi 4 Model B Rev 1.1 (4GB) | Excellent | Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware. Low Latency Mode doesn't work but it's not really needed on Pi 4 anyway. |
 
 To help me verify models please report to me how it is working for you and your exact model. You can get the exact model by opening a terminal with the run menu by running `termit` then entering `cat /sys/firmware/devicetree/base/model`.  
 
@@ -48,7 +49,7 @@ To help me verify models please report to me how it is working for you and your 
 4. When asked to choose OS select the option to use a custom image and select the VitaDock Plus VX.img you downloaded.  
 5. Choose the SD card to write it to (make sure to select the right one).  
 6. Click Write. Once it is done it will tell you to remove the SD card.  
-7. Plug the SD card into your Pi and power it on.  
+7. Plug the SD card into your Pi and power it on. Depending on your Pi model it might reboot once to automatically configure the image for your model.  
 
 Any time you see the VitaDock+ desktop you can plug your Vita in through USB to get video output.  
 
@@ -93,7 +94,7 @@ Some Vitas have trouble connecting to the Pi for unknown reasons. The following 
 3. Make sure your Pi has a good enough power supply.  
 4. If you use a lot of plugins disable plugins you don't need to see if it increases your connection success rate.  
 5. There is a correlation between long Vita boot time and vita-udcd-uvc connection success rate. If you have a lot of storage on your Vita it can take a long time to boot. If you are using StorageMgr for your storage consider switching to to yamt-vita or yamt-vita-lite to decrease boot times and increase connection success rate.  
-6. If using an overclocking plugin on the Vita try setting it to 444 to see if it helps connection issues.  
+6. If using an overclocking plugin on the Vita try setting it to 444 in the LiveArea to see if it helps connection issues.  
 
 # Upscaling
 VitaDock+ upscales the Vita's 960x544 or 864x488 output to 720p with Lanczos filtering then your TV upscales that to the resolution of your panel using it's own method as long as you don't have original size set in your TV's input settings.  
@@ -102,13 +103,14 @@ VitaDock+ upscales the Vita's 960x544 or 864x488 output to 720p with Lanczos fil
 Use the run menu to access standard programs:  
 `pcmanfm` to open file manager  
 `termit` to open terminal emulator  
-`alacarte` to open menu editor  
+`alacarte` to open menu editor*
+*SOMETIMES ALACARTE MENU EDITOR RESETS THE ENTIRE MAIN MENU JUST FROM OPENING IT AND I HAVE NO IDEA WHY, OPEN AT YOUR OWN RISK!
 
-If you want to install more programs first expand the filesystem to fill the rest of your SD card.  
+If you want to install more programs first expand the filesystem with raspi-config to fill the rest of your SD card. Sometimes installing programs will fail due to low memory, this is because the swapfile is disabled by default to keep performance consistent across Pi models and allow the image to fit on 4GB SD cards. Please edit /etc/dphys-swapfile then reboot to give your Pi more memory to work with.  
 
 # Add-on Features
 Add-on features aren't installed by default due to them using some CPU cycles in the background which may hurt performance on low end Pis. To install add-on features you need to do the following first:  
-1. Enable WiFi by right clicking the bottom bar (where the Volume and Bluetooth icons are) and clicking Add / Remove Panel Items. Then add the Wireless & Wired Network item to your bottom bar. The WiFi Icon will appear and allow you to connect to a network. You need an internet connection to download the add-on features so connect to a network.  
+1. Connect to the internet.  
 2. Go to the run menu and open `termit` then type `sudo raspi-config` and press enter. Navigate to Advanced Options > Expand Filesystem to expand the filesystem on next reboot allowing free SD card space to be used. Reboot.  
 When you are done installing Add-on Features disable WiFi to save processing power and prevent interference.  
 
