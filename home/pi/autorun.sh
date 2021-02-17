@@ -19,3 +19,4 @@ sudo cp /home/pi/92-dvita.rules /etc/udev/rules.d/
 sudo udevadm trigger --action=change
 sudo xrandr -d :0 -s 1280x720 -r 60.00
 bash /home/pi/screensaveron.sh &
+/usr/lib/notification-daemon/notification-daemon &
