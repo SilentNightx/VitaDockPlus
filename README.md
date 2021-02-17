@@ -28,7 +28,7 @@ Menu shortcuts to apps that let you use this as a Linux desktop: They made it to
 # Tested Models
 | Model | Status | Details |
 | :-------------: | :-------------: | :-----: |
-| Raspberry Pi Zero W Rev 1.1 | Works | Latency will make certain games unplayable, consider overclocking, diabling Bluetooth/WiFi, and using Low Latency Mode. |
+| Raspberry Pi Zero W Rev 1.1 | Works | Latency will make certain games unplayable. Consider overclocking, diabling Bluetooth/WiFi, and using Low Latency Mode. |
 | Raspberry Pi 2 Model B Rev 1.1 | Good |  |
 | Raspberry Pi 3 Model B Rev 1.2 |Excellent|  |
 | Raspberry Pi 4 Model B Rev 1.1 (2GB) | Excellent | Display backlight might not go to sleep on timeout, a common issue with Pi 4 hardware. Low Latency Mode doesn't work but it's not really needed on Pi 4 anyway. |
