@@ -13,7 +13,7 @@ Low Latency Mode (disables Desktop for better performance)
 More accurate colors  
 Lanczos upscaling  
 Fancy splash screen  
-Notifications for visual feedback when changing settings
+Notifications for visual feedback when changing settings  
 Display power control  
 Bug fixes  
 
