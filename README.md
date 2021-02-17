@@ -103,8 +103,8 @@ VitaDock+ upscales the Vita's 960x544 or 864x488 output to 720p with Lanczos fil
 Use the run menu to access standard programs:  
 `pcmanfm` to open file manager  
 `termit` to open terminal emulator  
-`alacarte` to open menu editor*
-*SOMETIMES ALACARTE MENU EDITOR RESETS THE ENTIRE MAIN MENU JUST FROM OPENING IT AND I HAVE NO IDEA WHY, OPEN AT YOUR OWN RISK!
+`alacarte` to open menu editor*  
+*SOMETIMES ALACARTE MENU EDITOR RESETS THE ENTIRE MAIN MENU JUST FROM OPENING IT AND I HAVE NO IDEA WHY, OPEN AT YOUR OWN RISK!  
 
 If you want to install more programs first expand the filesystem with raspi-config to fill the rest of your SD card. Sometimes installing programs will fail due to low memory, this is because the swapfile is disabled by default to keep performance consistent across Pi models and allow the image to fit on 4GB SD cards. Please edit /etc/dphys-swapfile then reboot to give your Pi more memory to work with.  
 
