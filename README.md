@@ -28,7 +28,7 @@ Menu shortcuts to apps that let you use this as a Linux desktop: They made it to
 # Tested Models
 | Model | Status | Details |
 | :-------------: | :-------------: | :-----: |
-| Raspberry Pi Zero W Rev 1.1 | Works | Latency will make certain games unplayable. Consider overclocking, diabling Bluetooth/WiFi, and using Low Latency Mode. |
+| Raspberry Pi Zero W Rev 1.1 | Works | Latency will make certain games unplayable. Consider overclocking, disabling Bluetooth/WiFi, and using Low Latency Mode. |
 | Raspberry Pi 2 Model B Rev 1.1 | Good |  |
 | Raspberry Pi 3 Model B Rev 1.2 |Excellent|  |
 | Raspberry Pi 3 Model B Plus Rev 1.3 |Excellent|  |
