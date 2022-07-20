@@ -1,0 +1,1 @@
+console=serial0,115200 console=tty1 loglevel=3 root=PARTUUID=6aca2135-02 rootfstype=ext4 fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles

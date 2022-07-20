@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Vita
+Exec=/home/pi/autorun.sh

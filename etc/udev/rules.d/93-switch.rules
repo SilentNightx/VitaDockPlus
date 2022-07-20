@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="057e", TAG+="systemd", ENV{SYSTEMD_WANTS}="switch.service"

@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=1stboot.desktop
+Exec=./1stboot.sh

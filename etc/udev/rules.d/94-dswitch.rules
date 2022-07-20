@@ -1,0 +1,1 @@
+ACTION=="remove", SUBSYSTEM=="usb", RUN+="/home/pi/dswitch.sh"

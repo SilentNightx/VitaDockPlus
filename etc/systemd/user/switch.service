@@ -1,0 +1,4 @@
+[Service]
+ExecStart=/home/pi/runswitch.sh
+User=pi
+StandardOutput=tty1

@@ -1,0 +1,4 @@
+[Service]
+ExecStart=/home/pi/run.sh
+User=pi
+StandardOutput=tty1
