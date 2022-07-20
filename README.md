@@ -33,7 +33,8 @@ To help me verify models please report to me how it is working for you and your 
 1. A hacked Vita: https://vita.hacks.guide/  
 2. Latest official vita-udcd-uvc installed on your Vita: https://github.com/xerpi/vita-udcd-uvc  
 3. A Raspberry Pi with power cable, display cable, and 4GB+ SD/MicroSD card (see tested models above): <a target="_blank" href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=silentnightx-20&keywords=raspberry pi&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=5e8cae4be3a18d69a8eb02205751d14c">Associate Link</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=silentnightx-20&l=ur2&o=1&camp=1789" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />  
-4. Computer with an SD card slot or a USB SD card reader (often included in Raspberry Pi starter kits).  
+4. Computer with an SD card slot or a USB SD card reader (often included in Raspberry Pi starter kits)  
+5. USB mouse to change settings or connect Bluetooth audio  
 
 # Installation
 1. Download the latest release of VitaDock+: https://github.com/SilentNightx/VitaDockPlus/releases/  
