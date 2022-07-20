@@ -118,9 +118,9 @@ Screen tearing:
 If all else fails join our Discord server and ask for help.  
 
 # For Advanced Users
-Username is `pi`
-Password is `raspberry`
-Do not connect VitaDock+ to the internet without changing this.
+Username is `pi`  
+Password is `raspberry`  
+Do not connect VitaDock+ to the internet without changing this.  
 
 Use the run menu to access standard programs:  
 `pcmanfm` to open file manager  
