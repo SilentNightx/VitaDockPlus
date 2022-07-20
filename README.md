@@ -11,7 +11,7 @@ Menu to switch between 960x544 @ 30FPS, 864x488 @ 60FPS, and Plugin Controlled m
 VitaDock+ themed with fancy splash screen and notifications for visual feedback when changing settings  
 Works on most Raspberry Pi models with a single image*  
 Fits on 4GB SD cards  
-Nintendo Switch RCM injection
+Nintendo Switch RCM injection  
 Cool experimental features (see below)  
 
 *For older Raspberry Pi models there is a legacy image that may result in improved performance. 
