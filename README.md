@@ -21,6 +21,7 @@ Cool experimental features (see below)
 # Tested Models
 | Model | Status | Details |
 | :-------------: | :-------------: | :-----: |
+| Raspberry Zero 2 W Rev 1.0 | Excellent |  |
 | Raspberry Pi 4 Model B Rev 1.1 (4GB) | Excellent |  |
 | Raspberry Pi 4 Model B Rev 1.2 (2GB) | Excellent |  |
 | Raspberry Pi 4 Model B Rev 1.1 (2GB) | Excellent |  |
