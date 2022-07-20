@@ -2,6 +2,8 @@
 [![Discord](https://img.shields.io/discord/686957786327941157?logo=Discord&style=for-the-badge)](https://discord.gg/tQemjGd)[![GitHub release (latest by date)](https://img.shields.io/github/v/release/SilentNightx/VitaDockPlus?style=for-the-badge)](https://github.com/SilentNightx/VitaDockPlus/releases)  
 VitaDock+ is a Linux distribution for Raspberry Pi used to create a PlayStation Vita docking station for video output to a TV.
 
+![Imgur Image](https://i.imgur.com/k2ZPx2m.png)
+
 # Features
 Hardware accelerated across all supported hardware  
 Low input latency and accurate colors  
