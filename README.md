@@ -112,7 +112,7 @@ Screen flicker:
 1. Try setting your dock output resolution to the native resolution of your display.  
 2. Try a different display. Some TVs have issues displaying Linux at any resolution other than native which is what I discovered on my TCL Roku living room TV.  
 
-I have screen tearing:  
+Tearing:  
 1. Sometimes this happens if you have the Vita plugged in when you boot the Pi. Simply unplug it and plug it back in.  
 
 If all else fails join our Discord server and ask for help.  
