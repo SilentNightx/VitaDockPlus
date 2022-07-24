@@ -28,7 +28,7 @@ Cool experimental features (see below)
 | Raspberry Pi 3 Model B Plus Rev 1.3 |Excellent|  |
 | Raspberry Pi 3 Model B Rev 1.2 |Excellent|  |
 | Raspberry Pi 2 Model B Rev 1.1 | Good |  |
-| Raspberry Pi Zero W Rev 1.1 | Works | Latency makes games unplayable on current image, use legacy image instead to make some games playable. Also see performance tips section below. |
+| Raspberry Pi Zero W Rev 1.1 | Works | Latency makes games unplayable. See performance tips section below. |
 
 To help me verify models please report to me how it is working for you and your exact model. You can get the exact model by opening a terminal with the run menu by running `x-terminal-emulator` then entering `cat /sys/firmware/devicetree/base/model`.  
 
