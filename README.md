@@ -75,7 +75,7 @@ https://www.tinkercad.com/things/b0GQwqVYNPP
 
 
 # Performance Tips
-Overclocking and disabling Bluetooth on low powered Pis can help. Good starting overclock values:  
+If you are having performace issues try the legacy image. Overclocking and disabling Bluetooth on low powered Pis can also help. Good starting overclock values:  
 
 | Model | arm_freq | core_freq | gpu_freq | sdram_freq | over_voltage | Cooling Required |
 | :-------------: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -116,7 +116,7 @@ Screen flicker:
 Screen tearing:  
 1. Sometimes this happens if you have the Vita plugged in when you boot the Pi. Simply unplug it and plug it back in.  
 
-If all else fails join our Discord server and ask for help.  
+Before asking for help try both images.
 
 # For Advanced Users
 Username is `pi`  
