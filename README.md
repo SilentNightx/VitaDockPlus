@@ -44,8 +44,7 @@ To help me verify models please report to me how it is working for you and your 
 4. When asked to choose OS select the option to use a custom image and select the VitaDock Plus VX.img you downloaded.  
 5. Choose the SD card to write it to (make sure to select the right one).  
 6. Click Write. Once it is done it will tell you to remove the SD card.  
-7. Plug the SD card into your Pi and power it on. Depending on your Pi model it might take awhile to load as it automatically configures the image for you on first boot. If the Pi doesn't boot see the troubleshooting section below.
-8. Once at the desktop it will prompt you to set your dock output resolution. This is the resolution your Pi will scale the Vita to. Your TV then upscales that to the resolution of your display if you don't have original size set in your display's input settings. Note that just because a Pi has 4K output doesn't mean it can handle it during video playback. For most scenarios I recommend you set this to 1280x720 @ 60Hz.  
+7. Plug the SD card into your Pi and power it on. Depending on your Pi model it might take awhile to load as it automatically configures the image for you on first boot. If the Pi doesn't boot see the troubleshooting section below.  
 
 Any time you see the VitaDock+ desktop you can plug your Vita in through USB to get video output.  
 
@@ -73,7 +72,7 @@ https://www.tinkercad.com/things/b0GQwqVYNPP
 
 
 # Performance Tips
-If you are having performace issues try the legacy image. Overclocking and disabling Bluetooth on low powered Pis can also help. Good starting overclock values:  
+Overclocking and disabling Bluetooth on low powered Pis can also help. Good starting overclock values:  
 
 | Model | arm_freq | core_freq | gpu_freq | sdram_freq | over_voltage | Cooling Required |
 | :-------------: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -97,7 +96,8 @@ Boot failure:
 4. Try unplugging the HDMI cable and plugging it back in.
 5. If your Pi has two HDMI ports try the other one.
 6. Reimage the SD with the recommended imaging software.  
-7. If you're running a newer model Pi it's possible it's a revision VitaDock+ doesn't support yet. Join our Discord server and let us know.  
+7. Try the experimental image.
+8. If you're running a newer model Pi it's possible it's a revision VitaDock+ doesn't support yet. Join our Discord server and let us know.  
 
 Vita connection issues:  
 1. Reboot the dock and the Vita and try again. Check the USB cable, it can make a difference.  
