@@ -96,8 +96,7 @@ Boot failure:
 4. Try unplugging the HDMI cable and plugging it back in.
 5. If your Pi has two HDMI ports try the other one.
 6. Reimage the SD with the recommended imaging software.  
-7. Try the experimental image.
-8. If you're running a newer model Pi it's possible it's a revision VitaDock+ doesn't support yet. Join our Discord server and let us know.  
+7. If you're running a newer model Pi it's possible it's a revision VitaDock+ doesn't support yet. Join our Discord server and let us know.  
 
 Vita connection issues:  
 1. Reboot the dock and the Vita and try again. Check the USB cable, it can make a difference.  
