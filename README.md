@@ -11,12 +11,10 @@ Lanczos upscaling to desired output resolution
 Display power control across all models  
 Menu to switch between 960x544 @ 30FPS, 864x488 @ 60FPS, and Plugin Controlled modes  
 VitaDock+ themed with fancy splash screen and notifications for visual feedback when changing settings  
-Works on most Raspberry Pi models with a single image*  
+Works on most Raspberry Pi models with a single image  
 Fits on 4GB SD cards  
 Nintendo Switch RCM injection  
 Cool experimental features (see below)  
-
-*For older Raspberry Pi models there is a legacy image that may result in improved performance. 
 
 # Tested Models
 | Model | Status | Details |
