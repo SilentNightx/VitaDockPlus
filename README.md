@@ -131,7 +131,7 @@ If you want to install more programs first expand the filesystem with `raspi-con
 The features below are still in testing and may not work properly. Support will not be provided for them.
 
 ## Nintendo Switch Video Output With SysDVR
-This feature allows you to connect a Switch that has SysDVR running in USB mode to get a video output. You must be in a game that supports SysDVR when you connect. Doesn't work on Pi 1 or Pi Zero 1. See https://github.com/exelix11/SysDVR for more information.
+This feature allows you to connect a Switch that has SysDVR running in USB mode to get a video output. You need SysDVR 5.3 specifically installed on your Switch and you must be in a game that supports SysDVR when you connect. Doesn't work on Pi 1 or Pi Zero 1. See https://github.com/exelix11/SysDVR for more information.
 
 ## Sharpscale Mode
 This feature allows you to display native 720p from a Vita using the Sharpscale plugin. You'll need Sharpscale installed on your Vita along with a 1280×720 resolution patch plugin for a game and you need Unlock Framebuffer Size turned on in the Sharpscale config. See https://forum.devchroma.nl/index.php?topic=112.0 for more information.  
