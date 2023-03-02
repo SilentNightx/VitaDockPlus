@@ -1,3 +1,5 @@
 #!/bin/bash
-printf "pc" | tee /home/pi/vitadock.conf
-notify-send -i /home/pi/Pictures/Icons/pspic.png "VitaDock Plus" "Switched to Plugin Controlled mode."
+
+/home/pi/updateConfig.sh "DISPLAY_MODE" "pc"
+
+/home/pi/notify.sh "Switched to Plugin Controlled mode."

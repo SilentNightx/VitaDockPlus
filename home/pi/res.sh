@@ -1,3 +1,5 @@
 #!/bin/bash
-printf "res" | tee /home/pi/vitadock.conf
-notify-send -i /home/pi/Pictures/Icons/pspic.png "VitaDock Plus" "Switched to HD @ 30FPS."
+
+/home/pi/updateConfig.sh "DISPLAY_MODE" "res"
+
+/home/pi/notify.sh "Switched to HD @ 30FPS."
