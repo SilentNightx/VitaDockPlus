@@ -13,8 +13,6 @@ then
 
     pactl unload-module module-loopback
 else
-    /home/pi/updateConfig.sh "AUDIO_MODE" "AUX"
-
     bluetoothctl power off
 
     pactl load-module module-loopback source=3 sink=0

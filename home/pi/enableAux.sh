@@ -16,4 +16,4 @@ else
     MESSAGE="Audio configured for Aux"
 fi
 
-/home/pi/notify.sh[] "$MESSAGE"
+/home/pi/notify.sh "$MESSAGE"
