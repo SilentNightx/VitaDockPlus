@@ -6,7 +6,7 @@
 
 MESSAGE=$1
 
-if [ -n "$MESSAGE"]
+if [ -n "$MESSAGE" ]
 then
     notify-send -i /home/pi/Pictures/Icons/pspic.png "VitaDock Plus" "$MESSAGE"
 fi

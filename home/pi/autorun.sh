@@ -15,5 +15,8 @@ then
 else
     bluetoothctl power off
 
-    pactl load-module module-loopback source=3 sink=0
+    AUX_SOURCE=$(/home/pi/getConfig.sh "AUX_SOURCE")
+    AUX_SINK=$(/home/pi/getConfig.sh "AUX_SINK")
+
+    pactl load-module module-loopback source="$AUX_SOURCE" sink="$AUX_SINK"
 fi
