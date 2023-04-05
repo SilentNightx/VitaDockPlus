@@ -14,6 +14,12 @@
 WELCOME_DESC="This tool is used to configure capturing the PSVita's audio via Aux input.\n\nUse the arrow keys to highlight options and the tab key to highlight actions.\nUse the enter key to select the highlighted element."
 whiptail --title "Aux Configuration Tool" --msgbox "$WELCOME_DESC" 20 80 
 
+INTRO_DESC="The Rasperry Pi 3 and 4 do NOT have a line in (Aux) device."
+INTRO_DESC+="\nA USB line in device will be needed.\nPlease see the Aux Audio section of the https://github.com/SilentNightx/VitaDockPlus ReadMe file."
+INTRO_DESC+="\n\nEnsure your USB line device is connected before continuing"
+
+whiptail --title "Aux Configuration Tool" --msgbox "$INTRO_DESC" 20 80 
+
 INDX=0
 SRC_OPTIONS=()
 SNK_OPTIONS=()
@@ -29,7 +35,7 @@ do
 done <<<  "$SOURCES"
 
 SRC_TITLE="Select Input Device"
-SRC_DESC="Select the device used to capture the PSVita's audio."
+SRC_DESC="Select the device used to capture the PSVita's audio.\nThis is your USB line in device"
 
 SELECTED_SRC=$(whiptail --title "$SRC_TITLE" --menu "$SRC_DESC" 20 80 10 ${SRC_OPTIONS[@]} 3>&1 1>&2 2>&3)
 

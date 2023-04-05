@@ -5,8 +5,6 @@ MESSAGE="Audio configured for Aux."
 
 /home/pi/updateConfig.sh "AUDIO_MODE" "AUX"
 
-bluetoothctl power off
-
 AUX_SINK=$(/home/pi/getConfig.sh "AUX_SINK")
 AUX_SOURCE=$(/home/pi/getConfig.sh "AUX_SOURCE")
 

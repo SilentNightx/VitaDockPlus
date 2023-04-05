@@ -10,11 +10,7 @@ AUDIO_MODE=$(/home/pi/getConfig.sh AUDIO_MODE)
 if [ "$AUDIO_MODE" == "BT" ]
 then
     bluetoothctl power on
-
-    pactl unload-module module-loopback
 else
-    bluetoothctl power off
-
     AUX_SOURCE=$(/home/pi/getConfig.sh "AUX_SOURCE")
     AUX_SINK=$(/home/pi/getConfig.sh "AUX_SINK")
 
