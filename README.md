@@ -7,16 +7,16 @@ VitaDock+ is a Linux distribution for Raspberry Pi used to create a PlayStation 
 
 # Features
 
-Hardware accelerated across all supported hardware  
-Low input latency and accurate colors  
-Lanczos upscaling to desired output resolution  
-Display power control across all models  
-Menu to switch between 960x544 @ 30FPS, 864x488 @ 60FPS, and Plugin Controlled modes  
-VitaDock+ themed with fancy splash screen and notifications for visual feedback when changing settings  
-Works on most Raspberry Pi models with a single image  
-Fits on 4GB SD cards  
-Nintendo Switch RCM injection  
-Cool experimental features (see below)
+- Hardware accelerated across all supported hardware
+- Low input latency and accurate colors
+- Lanczos upscaling to desired output resolution
+- Display power control across all models
+- Menu to switch between 960x544 @ 30FPS, 864x488 @ 60FPS, and Plugin Controlled modes
+- VitaDock+ themed with fancy splash screen and notifications for visual feedback when changing settings
+- Works on most Raspberry Pi models with a single image
+- Fits on 4GB SD cards
+- Nintendo Switch RCM injection
+- Cool experimental features (see below)
 
 # Tested Models
 
@@ -41,6 +41,7 @@ To help me verify models please report to me how it is working for you and your 
 4. Computer with an SD card slot or a USB SD card reader (often included in Raspberry Pi starter kits)
 5. USB mouse to change settings or connect Bluetooth audio
 6. Keyboard to setup Aux audio input (not needed if using Bluetooth)
+7. If using Aux audio there are specific extras needed. Please see [Aux Audio Support](#aux-audio-support) for more information.
 
 # Installation
 
@@ -51,7 +52,7 @@ To help me verify models please report to me how it is working for you and your 
 5. Choose the SD card to write it to (make sure to select the right one).
 6. Click Write. Once it is done it will tell you to remove the SD card.
 7. Plug the SD card into your Pi and power it on. Depending on your Pi model it might take awhile to load as it automatically configures the image for you on first boot. If the Pi doesn't boot see the troubleshooting section below.
-8. If using Aux audio, it needs to be enabled. See [Aux Audio Support](#aux-audio-support) for more information.
+8. If using Aux audio, it needs to be enabled and configured. See [Aux Audio Support](#aux-audio-support) for more information.
 
 Any time you see the VitaDock+ desktop you can plug your Vita in through USB to get video output.
 
@@ -73,23 +74,39 @@ By default audio is handled via Bluetooth however an Aux cable, using the PSVita
 
 If enabled Bluetooth will be disabled. Selecting either `Use Internal Bluetooth` or `Use Dongle Bluetooth` will re-enable Bluetooth and disable Aux Audio.
 
-## Enabling
+## Enabling & Configuring
 
 This can be enabled by selecting the `Use Aux Audio` menu from the `Options` menu.
 
-The first time Aux is enabled the `Aux Configuration Tool` will be run. This tool guides you through setting up Aux audio for the first time, specifically selecting the device used to capture the Audio.
+The first time Aux is enabled the `Aux Configuration Tool` will be run. This tool guides you through setting up Aux audio for the first time.
 
-The menu `Configure Aux Audio` from the `Options` menu will re-run this tool.
+Aux audio needs to be configured to say which device is used to capture the PSVita's audio and which device should be used for audio playback. The `Aux Configuration Tool` provides a very simple way to set this configuration.
 
-## Equipment needed
+Should you wish to modify configuration the menu item `Configure Aux Audio` from the `Options` menu will re-run this tool.
+
+## Extra Equipment needed
 
 Some extra equipment will be needed if using Aux Audio.
 
-A **USB Adapter** will be needed if your Raspberry Pi does not have a line in jack.
+### USB Line In Adapter
 
-A **Ground Loop Isolater** will be needed. This is to stop the humming noise experienced when using headpohnes and connecting the USB cable to the PSVita at the same time.
+Raspberry Pi 3 and 4's do **not** have a line in jack. Their headphones jack is an output only. As such a **USB Adapter** will be needed.
 
-A **Stereo to Mono** adapter _may_ be needed. Most USB line in adapters are mono and not stereo. However if your adapter is stereo then this will not be needed.
+This specific adapter has been known to work. https://www.ebay.co.uk/itm/255659290779
+
+However any USB Sound Card with a microphone port that works with Linux should be fine.
+
+### Ground Loop Isolator
+
+This is needed to stop the humming noise experienced when using headpohnes and connecting the USB cable to the PSVita at the same time.
+
+This specific adapter has been known to work. https://www.ebay.co.uk/itm/164876981937
+
+### Stereo to Mono converter
+
+This adapter _may_ be needed. Most of the cheap USB Sound Cards with a microphone line in are only mono and not stereo. The Audio quality from these devices is fine however an adapter will be needed to convert the PSVita from Stereo to Mono.
+
+If a USB Line In device which supports stereo is used this converter will not be needed.
 
 # Physical Power Button Feature
 
