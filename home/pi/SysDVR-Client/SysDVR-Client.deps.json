@@ -1,0 +1,173 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SysDVR-Client/5.3.0": {
+        "dependencies": {
+          "LibUsbDotNet": "3.0.97-alpha",
+          "SharpRTSP": "0.0.1",
+          "SysDVR.Client.Native": "1.0.1",
+          "SysDVR.FFmpeg.AutoGen": "4.3.1.2"
+        },
+        "runtime": {
+          "SysDVR-Client.dll": {}
+        }
+      },
+      "LibUsbDotNet/3.0.97-alpha": {
+        "runtime": {
+          "lib/netcoreapp3.1/LibUsbDotNet.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.97.42274"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/libusb-1.0.0.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libusb-1.0.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.23.11397"
+          },
+          "runtimes/win-x64/native/libusb-1.0.pdb": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libusbK.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.0.7.0"
+          },
+          "runtimes/win-x64/native/libusbK.pdb": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libusb-1.0.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.23.11397"
+          },
+          "runtimes/win-x86/native/libusb-1.0.pdb": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libusbK.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "3.0.7.0"
+          },
+          "runtimes/win-x86/native/libusbK.pdb": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SysDVR.Client.Native/1.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/SysDVR.Client.Native.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/native/SDL2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2.0.12.0"
+          },
+          "runtimes/win-x64/native/avcodec-58.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "58.112.101.0"
+          },
+          "runtimes/win-x64/native/avdevice-58.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "58.11.102.0"
+          },
+          "runtimes/win-x64/native/avfilter-7.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.89.100.0"
+          },
+          "runtimes/win-x64/native/avformat-58.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "58.64.100.0"
+          },
+          "runtimes/win-x64/native/avutil-56.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "56.60.100.0"
+          },
+          "runtimes/win-x64/native/swresample-3.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "3.8.100.0"
+          },
+          "runtimes/win-x64/native/swscale-5.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.8.100.0"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2.0.12.0"
+          }
+        }
+      },
+      "SharpRTSP/0.0.1": {
+        "runtime": {
+          "RTSP.dll": {}
+        }
+      },
+      "SysDVR.FFmpeg.AutoGen/4.3.1.2": {
+        "runtime": {
+          "FFmpeg.AutoGen.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SysDVR-Client/5.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibUsbDotNet/3.0.97-alpha": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r2Bw8Co7v/QT5S8XmbghEqeRDXJuWZg+ph+uwHT1PbwJktvtlER8/o5vf2Xh4CSplKDunWhLgMHh4n2LDFRAvA==",
+      "path": "libusbdotnet/3.0.97-alpha",
+      "hashPath": "libusbdotnet.3.0.97-alpha.nupkg.sha512"
+    },
+    "SysDVR.Client.Native/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pe5+jJx1i0tN1/pezXG5wU2kgZz51kTV1LzDjFw8z8Vb4uwgAFoxuMur1MwXtQbGfLw4JP5uyeRzZ67nXTNljg==",
+      "path": "sysdvr.client.native/1.0.1",
+      "hashPath": "sysdvr.client.native.1.0.1.nupkg.sha512"
+    },
+    "SharpRTSP/0.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SysDVR.FFmpeg.AutoGen/4.3.1.2": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,3 +1,6 @@
 #!/bin/bash
-printf "sharp" | tee /home/pi/vitadock.conf
-notify-send -i /home/pi/Pictures/Icons/pspic.png "VitaDock Plus" "Switched to Sharpscale mode."
+
+# Set config to Sharpscale mode and restart MPV if running.
+/home/pi/updateConfig.sh "DISPLAY_MODE" "sharp"
+/home/pi/notify.sh "Switched to Sharpscale mode."
+sudo bash /home/pi/run.sh &
