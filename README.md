@@ -16,6 +16,8 @@ VitaDock+ is a Linux distribution for Raspberry Pi used to create a PlayStation 
 - Works on most Raspberry Pi models with a single image
 - Fits on 4GB SD cards
 - Nintendo Switch RCM injection
+- Audio via Bluetooth or Aux cable
+- Headless configuration using GPIO pins
 - Cool experimental features (see below)
 
 # Tested Models
@@ -42,6 +44,7 @@ To help me verify models please report to me how it is working for you and your 
 5. USB mouse to change settings or connect Bluetooth audio
 6. Keyboard to setup Aux audio input (not needed if using Bluetooth)
 7. If using Aux audio there are specific extras needed. Please see [Aux Audio Support](#aux-audio-support) for more information.
+8. If using GPIO buttons instead of a keyboard and mouse see [Control via GPIO](#control-via-gpio) for more information.
 
 # Installation
 
@@ -107,6 +110,55 @@ This specific adapter has been known to work. https://www.ebay.co.uk/itm/1648769
 This adapter _may_ be needed. Most of the cheap USB Sound Cards with a microphone line in are only mono and not stereo. The Audio quality from these devices is fine however an adapter will be needed to convert the PSVita from Stereo to Mono.
 
 If a USB Line In device which supports stereo is used this converter will not be needed.
+
+# Control via GPIO
+
+It's possible to control the VitaDock+ without the need for a mouse and keyboard. GPIO pins, documented below, have been configured to emulate keyboard presses.
+
+This allows not only for first time setup of audio (Bluetooth or Aux) to be configured but also changing of the display settings without a mouse or keyboard.
+
+It's feasible that in the future the available 3D models for docks could be updated to include these buttons. As of now though a user would have to devise their own way to mount these buttons.
+
+| GPIO Pin | Keyboard key    | Configuration Item |
+| -------- | --------------- | ------------------ |
+| 21       | Left Arrow Key  | LEFT_KEY_GPIO      |
+| 20       | Right Arrow Key | RIGHT_KEY_GPIO     |
+| 26       | Up Arrow Key    | UP_KEY_GPIO        |
+| 19       | Down Arrow Key  | DOWN_KEY_GPIO      |
+| 16       | Windows Key     | WINDOWS_KEY_GPIO   |
+| 13       | Escape Key      | ESCAPE_KEY_GPIO    |
+| 12       | Enter Key       | ENTER_KEY_GPIO     |
+| 6        | Tab Key         | TAB_KEY_GPIO       |
+
+## Changing/Disabling GPIO pins used
+
+It is possible to change the GPIO pin used or disable the functionality completely on a per GPIO pin basis.
+
+This can be achieved by modifying the `vitadock.conf` file. The table above lists the configuration item used for each keyboard key.
+
+Simply change the value to the GPIO pin you would rather use. If you wish to disable the pin entirely set its value to empty, eg: `ENTER_KEY_GPIO=`
+
+## How do I connect a button?
+
+You need a button that is normally open, that is it is not connected when it is not pressed. Nearly all buttons used in Arduino hobby kits and the like behave this way.
+
+One end needs to be connected to the Raspberry PI's GPIO pin, the other end connected to a `Ground` pin.
+
+## How do I control the VitaDock+?
+
+Pressing the `Windows Key` will bring up the main menu. `Arrow keys` can then be used to navigate up and down the menu. The `Enter Key` can be used to select an item or open a submenu. The `Escape Key` can be used to close the menu or collapse a submenu.
+
+The `Tab Key` is a special key that allows navigation of the entire Operating System without the need for a mouse. Users who are unable to use a mouse for medical reasons may already be aware of this feature.
+
+This functionality has been added just in case a user may wish to do more than just select menu items.
+
+# Bluetooth discovery via GPIO buttons
+
+It is possible to make the VitaDock+ discoverable via Bluetooth using a GPIO pin. Sending this pin to ground will make the dock discoverable for three minuets.
+
+The default pin is GPIO pin 5 however this can be changed within the `vitadock.conf` file.
+
+The config item `DISCOVERY_KEY_GPIO` controls which pin is used, setting it to empty will disable this feature.
 
 # Physical Power Button Feature
 
