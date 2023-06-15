@@ -28,4 +28,6 @@ case $DISPLAY_MODE in
 	;;
 esac
 
-mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-audio --opengl-glfinish=yes --opengl-swapinterval=0 --no-cache --really-quiet --fs --ontop --force-window=immediate --title=VitaDock+ --no-border --sws-scaler=lanczos --sws-fast=yes --scale=ewa_lanczossharp || exit
+VIDEO_OUTPUT_LEVEL=$(/home/pi/getConfig.sh VIDEO_OUTPUT_LEVEL)
+
+mpv av://v4l2:/dev/video0 --video-output-levels="$VIDEO_OUTPUT_LEVEL" --profile=low-latency --untimed --no-audio --opengl-glfinish=yes --opengl-swapinterval=0 --no-cache --really-quiet --fs --ontop --force-window=immediate --title=VitaDock+ --no-border --sws-scaler=lanczos --sws-fast=yes --scale=ewa_lanczossharp || exit
