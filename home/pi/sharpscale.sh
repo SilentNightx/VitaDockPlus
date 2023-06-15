@@ -1,3 +1,5 @@
 #!/bin/bash
-printf "sharp" | tee /home/pi/vitadock.conf
-notify-send -i /home/pi/Pictures/Icons/pspic.png "VitaDock Plus" "Switched to Sharpscale mode."
+
+/home/pi/updateConfig.sh "DISPLAY_MODE" "sharp"
+
+/home/pi/notify.sh "Switched to Sharpscale mode."

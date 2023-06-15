@@ -1,3 +1,5 @@
 #!/bin/bash
-printf "fps" | tee /home/pi/vitadock.conf
-notify-send -i /home/pi/Pictures/Icons/pspic.png "VitaDock Plus" "Switched to SD @ 60FPS."
+
+/home/pi/updateConfig.sh "DISPLAY_MODE" "fps"
+
+/home/pi/notify.sh "Switched to SD @ 60FPS."
