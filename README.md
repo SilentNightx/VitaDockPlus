@@ -73,6 +73,7 @@ Allows you to set processor states for games, overlay FPS counter, and more. Che
 # Audio Support
 
 VitaDock+ can handle audio in several ways.
+
 1. Use a 3.5mm AUX cable directly from the Vita into your sound system.
 2. Connect to the dock on your Vita using BLuetooth.
 3. Use a 3.5mm AUX cable from the Vita into your dock.
@@ -100,7 +101,7 @@ To switch between internal Bluetooth and dongle Bluetooth, or reenable BLuetooth
 
 To connect to Bluetooth use the Bluetooth icon in the taskbar. Turn on Discovery then Pair from the Vita Settings -> Devices -> Bluetooth Devices menu. Confirm the code on the Vita and the dock. You can then turn off Discovery if you want. For future play sessions you will just need to connect from the Vita Settings menu.
 
-Bluetooth latency and glitching appears to be bad when first connecting but starts to reside quickly. Bluetooth is also very taxing on the Pi so it may not be the best option for older/slower Pis. 
+Bluetooth latency and glitching appears to be bad when first connecting but starts to reside quickly. Bluetooth is also very taxing on the Pi so it may not be the best option for older/slower Pis.
 
 Enabling Bluetooth will disable AUX and vice versa.
 
@@ -111,6 +112,8 @@ It's possible to control the VitaDock+ without the need for a mouse and keyboard
 This allows not only for first time setup of audio (Bluetooth or AUX) to be configured but also changing of the display settings without a mouse or keyboard.
 
 It's feasible that in the future the available 3D models for docks could be updated to include these buttons. As of now though a user would have to devise their own way to mount these buttons.
+
+**Note** the table below lists the GPIO pin number, that is not to be confused with the physical pin number. For exmaple on a RPi3+ GPIO pin 6 is physical pin 31.
 
 | GPIO Pin | Keyboard key    | Configuration Item |
 | -------- | --------------- | ------------------ |
@@ -149,7 +152,7 @@ This functionality has been added just in case a user may wish to do more than j
 
 It is possible to make the VitaDock+ discoverable via Bluetooth using a GPIO pin. Sending this pin to ground will make the dock discoverable for three minuets.
 
-The default pin is GPIO pin 5 however this can be changed within the `vitadock.conf` file.
+The default pin is GPIO pin 5 (physical pin 29 on the RPi3+) however this can be changed within the `vitadock.conf` file.
 
 The config item `DISCOVERY_KEY_GPIO` controls which pin is used, setting it to empty will disable this feature.
 
@@ -208,6 +211,7 @@ Vita connection issues:
 6. If using an overclocking plugin on the Vita try setting it to 444 in the LiveArea to see if it helps connection issues.
 
 Performance issues:
+
 1. Try overclocking.
 2. Try disabling Bluetooth on the dock.
 3. Try a legacy image if on an older Pi.
