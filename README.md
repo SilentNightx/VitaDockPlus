@@ -223,8 +223,6 @@ Use the run menu to access standard programs:
 `x-terminal-emulator` to open terminal emulator  
 `menulibre` to open menu editor
 
-If you want to install more programs first expand the filesystem with `raspi-config` to fill the rest of your SD card.
-
 # Experimental Features
 
 The features below are still in testing and may not work properly or at all. Support will not be provided for them.
