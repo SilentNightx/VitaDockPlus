@@ -75,7 +75,7 @@ Allows you to set processor states for games, overlay FPS counter, and more. Che
 VitaDock+ can handle audio in several ways.
 
 1. Use a 3.5mm AUX cable directly from the Vita into your sound system.
-2. Connect to the dock on your Vita using BLuetooth.
+2. Connect to the dock on your Vita using Bluetooth.
 3. Use a 3.5mm AUX cable from the Vita into your dock.
 
 ## Regarding AUX
@@ -156,9 +156,9 @@ The default pin is GPIO pin 5 (physical pin 29 on the RPi3+) however this can be
 
 The config item `DISCOVERY_KEY_GPIO` controls which pin is used, setting it to empty will disable this feature.
 
-## Physical Power Button Feature
+## Physical Power Button
 
-Connect a physical power button to Pin 5 (GPIO 3/SCL) and Pin 6 (GND).
+Connect a physical power button to GPIO 3/SCL (physical pin 5 on the RPi3+) and GND (physical pin 6 on the RPi3+). This is not configurable.
 
 # Nintendo Switch RCM Injection Feature
 
