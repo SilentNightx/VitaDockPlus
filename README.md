@@ -77,7 +77,7 @@ VitaDock+ can handle audio in several ways.
 2. Connect to the dock on your Vita using BLuetooth.
 3. Use a 3.5mm AUX cable from the Vita into your dock.
 
-# Regarding AUX
+## Regarding AUX
 
 There is a humming noise experienced over AUX while the Vita is charging.
 
