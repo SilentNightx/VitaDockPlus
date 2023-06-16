@@ -189,6 +189,8 @@ Overclocking and disabling Bluetooth on low powered Pis can also help. Good star
 Data from: https://www.tomshardware.com/how-to/overclock-any-raspberry-pi  
 I do not take responsibility for anyone damaging their hardware with overclocking.
 
+Older images (<=V2.0) are known to have better performance on old/slower Pis and worse performance on new/faster Pis.
+
 # Troubleshooting
 
 Boot failure:
@@ -209,12 +211,6 @@ Vita connection issues:
 4. If you use a lot of plugins disable plugins you don't need to see if it increases your connection success rate.
 5. There is a correlation between long Vita boot time and vita-udcd-uvc connection success rate. If you have a lot of storage on your Vita it can take a long time to boot. If you are using StorageMgr for your storage consider switching to to yamt-vita or yamt-vita-lite to decrease boot times and increase connection success rate.
 6. If using an overclocking plugin on the Vita try setting it to 444 in the LiveArea to see if it helps connection issues.
-
-Performance issues:
-
-1. Try overclocking.
-2. Try disabling Bluetooth on the dock.
-3. Try a legacy image if on an older Pi.
 
 # For Advanced Users
 
