@@ -39,7 +39,7 @@ To help me verify models please report to me how it is working for you and your 
 
 1. A hacked Vita: https://vita.hacks.guide/
 2. Latest official vita-udcd-uvc installed on your Vita: https://github.com/xerpi/vita-udcd-uvc
-3. A Raspberry Pi with power cable, display cable, and 4GB+ SD/MicroSD card (see tested models above): <a target="_blank" href="https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=silentnightx-20&keywords=raspberry pi&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=5e8cae4be3a18d69a8eb02205751d14c">Associate Link</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=silentnightx-20&l=ur2&o=1&camp=1789" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+3. A Raspberry Pi with power cable, display cable, and 4GB+ SD/MicroSD card (see tested models above): <a target="_blank" href="https://www.amazon.com/s?k=raspberry+pi&linkCode=ll2&tag=silentnightx-20&linkId=498a9642812f95d0752f38faf435935d&language=en_US&ref_=as_li_ss_tl">Associate Link</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=silentnightx-20&l=ur2&o=1&camp=1789" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 4. Computer with an SD card slot or a USB SD card reader (often included in Raspberry Pi starter kits)
 5. Mouse, Keyboard, or GPIO buttons to change settings or connect audio through the dock.
 
@@ -95,7 +95,7 @@ Enabling AUX will disable Bluetooth and vice versa.
 ## Regarding Bluetooth
 
 Bluetooth attempts to use the internal Bluetooth by default. If your Pi doesn't have internal Bluetooth or your Bluetooth is glitching you can try using dongle Bluetooth instead. There are fake CSR Bluetooth dongles going around that don't work so watch out for those:
-<a target="_blank" href="https://www.amazon.com/s?k=raspberry+pi+bluetooth+dongle&crid=1HK235R0JUFT5&sprefix=raspberry+pi+bluetooth+dongle%2Caps%2C90&linkCode=ll2&tag=silentnightx-20&linkId=c7b2ee965518dba26c462c0c55bc323b&language=en_US&ref_=as_li_ss_tl" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a target="_blank" href="https://www.amazon.com/s?k=raspberry+pi+bluetooth+dongle&crid=1HK235R0JUFT5&sprefix=raspberry+pi+bluetooth+dongle%2Caps%2C90&linkCode=ll2&tag=silentnightx-20&linkId=c7b2ee965518dba26c462c0c55bc323b&language=en_US&ref_=as_li_ss_tl">Associate Link</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=silentnightx-20&l=ur2&o=1&camp=1789" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 To switch between internal Bluetooth and dongle Bluetooth, or reenable BLuetooth when in AUX mode, you can go to Menu -> Options on the dock and select a Bluetooth mode.
 
