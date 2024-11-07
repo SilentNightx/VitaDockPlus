@@ -130,7 +130,7 @@ It's feasible that in the future the available 3D models for docks could be upda
 
 It is possible to change the GPIO pin used or disable the functionality completely on a per GPIO pin basis.
 
-This can be achieved by modifying the `vitadock.conf` file see [For Advanced Users](#for-advanced-users). The table above lists the configuration item used for each keyboard key.
+This can be achieved by modifying the `vitadock.conf` file, see [For Advanced Users](#for-advanced-users). The table above lists the configuration item used for each keyboard key.
 
 Simply change the value to the GPIO pin you would rather use. If you wish to disable the pin entirely set its value to empty, eg: `ENTER_KEY_GPIO=`
 
@@ -196,10 +196,10 @@ Older images (<=V2.0) are known to have better performance on old/slower Pis and
 Boot failure:
 
 1. Wait awhile. Some Pis can take up to 10 minutes to boot on the first boot.
-2. Try again by forcing the power off.
-3. Make sure you are using a good power supply.
-4. Try unplugging the HDMI cable and plugging it back in.
-5. If your Pi has two HDMI ports try the other one.
+2. Try unplugging the HDMI cable and plugging it back in.
+3. If your Pi has two HDMI ports try the other one.
+4. Try again by forcing the power off.
+5. Make sure you are using a good power supply.
 6. Reimage the SD with the recommended imaging software.
 7. If you're running a newer model Pi it's possible it's a revision VitaDock+ doesn't support yet. Join our Discord server and let us know.
 
