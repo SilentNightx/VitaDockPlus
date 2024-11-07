@@ -24,6 +24,7 @@ VitaDock+ is a Linux distribution for Raspberry Pi used to create a PlayStation 
 
 |                Model                 |  Status   |                               Details                               |
 | :----------------------------------: | :-------: | :-----------------------------------------------------------------: |
+|            All Pi 5 Models          | Not Working | Requires major OS upgrade to work which has issues at the moment   |
 |    Raspberry Pi Zero 2 W Rev 1.0     | Excellent |                                                                     |
 | Raspberry Pi 4 Model B Rev 1.1 (4GB) | Excellent |                                                                     |
 | Raspberry Pi 4 Model B Rev 1.2 (2GB) | Excellent |                                                                     |
