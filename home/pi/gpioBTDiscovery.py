@@ -28,6 +28,7 @@ def make_discoverable(channel):
 gpio.add_event_detect(gpioPin, gpio.FALLING, callback=make_discoverable, bouncetime=300)
 
 try:
-    while True : pass
+    while True : 
+        sleep(1)
 except:
     gpio.cleanup()
