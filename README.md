@@ -53,7 +53,7 @@ If using GPIO buttons instead of a keyboard and mouse see [Control via GPIO](#co
 3. Plug in the SD card to your computer and run the Raspberry Pi Imager.
 4. When asked to choose OS select the option to use a custom image and select the VitaDock Plus VX.img you downloaded.
 5. Choose the SD card to write it to (make sure to select the right one).
-6. Click Write. Once it is done it will tell you to remove the SD card.
+6. Click Next and say no to applying OS settings. Once it is done it will tell you to remove the SD card.
 7. Plug the SD card into your Pi and power it on. Depending on your Pi model it might take awhile to load as it automatically configures the image for you on first boot. If the Pi doesn't boot see the troubleshooting section below.
 
 Any time you see the VitaDock+ desktop you can plug your Vita in through USB to get video output.
