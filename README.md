@@ -30,7 +30,7 @@ VitaDock+ is a Linux distribution for Raspberry Pi used to create a PlayStation 
 | Raspberry Pi 4 Model B Rev 1.2 (2GB) | Excellent |                                                                     |
 | Raspberry Pi 4 Model B Rev 1.1 (2GB) | Excellent |                                                                     |
 | Raspberry Pi 3 Model B Plus Rev 1.3  | Excellent |                                                                     |
-|    Raspberry Pi 3 Model B Rev 1.2    | Excellent |                                                                     |
+|    Raspberry Pi 3 Model B Rev 1.2    | Excellent? |       https://github.com/SilentNightx/VitaDockPlus/issues/42        |
 |    Raspberry Pi 2 Model B Rev 1.1    |   Good    |                                                                     |
 |     Raspberry Pi Zero W Rev 1.1      |   Works   | Latency makes games unplayable. See performance tips section below. |
 
