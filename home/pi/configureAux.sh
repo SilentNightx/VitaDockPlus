@@ -66,7 +66,7 @@ do
 	ID=$(echo "$line" | cut -f 1)
 	NAME=$(echo "$line" | cut -f 2)
 
-	SNK_OPTIONS[INDX]=$ID
+	SNK_OPTIONS[INDX]=$NAME
 	INDX+=1
 	# Remove alsa_output prefix
 	SNK_OPTIONS[INDX]=${NAME/alsa_output./""}
